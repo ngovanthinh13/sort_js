@@ -1,0 +1,7 @@
+[
+{ "_id" : "ac3", "name" : "Iphone", "brand" : "ACME", "type" : "phone", "price" : 200, "rating" : 3.8,"warranty_years" : 1, "available" : true },
+{ "_id" : "ac7", "name" : "Samsung", "brand" : "ACME", "type" : "phone", "price" : 320, "rating" : 4,"warranty_years" : 1, "available" : false },
+{ "_id" : { "$oid" : "507d95d5719dbef170f15bf9" }, "name" : "LG", "type" : [ "accessory", "charger" ], "price" : 19, "rating" : 2.8,"warranty_years" : 0.25, "for" : [ "ac3", "ac7", "ac9" ] },
+{ "_id" : { "$oid" : "507d95d5719dbef170f15bfa" }, "name" : "Sony", "type" : [ "accessory", "case" ], "color" : "green", "price" : 12, "rating" : 1,"warranty_years" : 0 }
+
+]
